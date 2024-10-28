@@ -16,10 +16,11 @@ body {
   width: 100vw;
   min-height: 100vh;
   padding: 50px;
+  transform-origin: top left;
+    transition: transform 0.5s linear;
   &.show-nav {
     transform: rotate(-20deg);
-    transform-origin: top left;
-    transition: transform 0.5s linear;
+    
     & + nav li {
       transform: translateX(0);
       transition-delay: 0.3s;
