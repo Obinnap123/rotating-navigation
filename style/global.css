@@ -10,9 +10,6 @@ body {
   color: #222;
   height: 100vh;
 }
-body.no-scroll {
-  overflow: hidden;
-}
 
 .container {
   background-color: #fafafa;
